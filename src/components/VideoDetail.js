@@ -12,7 +12,7 @@ const VideoDetail = ({video})=>{
             <div className="ui embed">
                 <iframe title="Video Player" src={videoSrc}/>
             </div>
-            <div className="ui segmnet">
+            <div className="ui segmnet" style={{marginTop:20}}>
                 <h4 className="ui header">
                     {video.snippet.title}
                 </h4>
